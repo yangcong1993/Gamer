@@ -16,6 +16,11 @@ Gamer，一个基于Nextjs开发的「游戏」主题个人网站，融合了现
 
 如果你也使用了Gamer，欢迎提出PR～
 
+## TODO
+- [ ] 全面的i18n支持
+- [ ] 自动计算Coop中的社群卡片等级（目前没多少coop，干脆人工计算了）
+- [ ] Sparks页面性能问题和移动端适配
+
 ## :rocket: 基础特性
 
 - **:zap: 极致性能**：在 LightHouse、Gtmetrix测试中表现卓越，平均Performance 95%, SEO 与 Best Practice 均接近 100%
