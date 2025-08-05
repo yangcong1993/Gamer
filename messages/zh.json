@@ -1,0 +1,64 @@
+{
+  "Navigation": {
+    "home": "主页",
+    "blog": "博客",
+    "projects": "项目"
+  },
+  "OnlineCounter": {
+    "text": "目前有 {count} 位玩家在此游玩中～"
+  },
+  "Realtime": {
+    "specialStatus": "Ripple 正在为用户修复博客代码…",
+    "statusPrefix": "Ripple 正在",
+    "statusSuffix": "神秘中…",
+    "localTime": "当地时间 GMT+8 {time}",
+    "timeAgo": {
+      "now": "刚刚",
+      "minutes": "{minutes} 分钟前"
+    }
+  },
+  "HomePage": {
+    "ContactTooltips": {
+      "rss": "RSS (敬请期待)",
+      "mail": "me@hiripple.com",
+      "game": "任天堂: SW-6702-3803-7997...",
+      "twitter": "X (推特)",
+      "github": "Github"
+    },
+    "Intro": {
+      "p1": "「啊，抱歉……我好像……有点沉迷在游戏里……」",
+      "p2": "「我叫Rippp。我是<del>超高中级</del>的游戏玩家。兴趣是玩游戏。所有类型都<del>擅长</del>。请多指教～」",
+      "p3": "话虽如此……其实Rippp迷恋着所有有趣的事物，是任任也是锁索，看库布里克也崇拜宫崎骏，又懒又爱折腾，还想学各种各样的技能，目标是走遍世界上所有大洲。",
+      "p4": "目前还是湖南大学的一名研究生（苦逼搬砖中），不过已经从硬件转向软件啦。本站是使用Nextjs+Supabase开发的首个个人博客，欢迎Star/邮件反馈:)",
+      "p5": "来则是客，希望您在此处可以感受到宁静与快乐。"
+    }
+  },
+  "FlashIdeas": {
+    "title": "闪念",
+    "wip": "施工中...",
+    "quote_title": "今日闪念",
+    "image_title": "随机一瞥",
+    "fetch_error": "数据加载失败。"
+  },
+  "FriendsPage": {
+    "title": "Cooperation",
+    "description": "It’s dangerous to go alone! Take this.",
+    "meta_title": "友链",
+    "meta_description": "Ripp的一些社群。",
+    "myInfo_title": "Ripp的信息",
+    "myInfo": {
+      "site_name": "hiRipple",
+      "address": "https://hiripple.com",
+      "favicon": "https://772123.xyz/Ripplelog-icon.png",
+      "description": "超高校级的游戏玩家",
+      "rss": "https://hiripple.com/feed"
+    },
+    "requirements_title": "Info",
+    "requirements_items": [
+      "社群卡片的Rank谨代表与本站的互动等级，由自动程序统计得出，与友站的质量、个人喜好无任何关联；",
+      "欢迎任何人邮件申请成为社群，但既然叫做社群，请从基本的互动开始；",
+      "此外，有三点基本的小要求：必须使用 HTTPS 协议、运营半年以上、博文非搬运/AI；",
+      "为了从精神的禁锢中获得自由而更生。"
+    ]
+  }
+}

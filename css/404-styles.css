@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.not-found-fullscreen-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(245, 245, 244);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.return-link-overlay {
+  position: absolute;
+  left: min(10vw, 6rem);
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  font-size: clamp(1rem, 4vw, 2.2rem);
+  line-height: 1;
+  font-family: ArkPixel, sans-serif;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  padding: 0.35em 0.8em;
+  border: 5px solid #000;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 0;
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease;
+}
+.return-link-overlay:hover {
+  transform: translateY(-50%) scale(1.07);
+  background: rgba(255, 255, 255, 0.8);
+}

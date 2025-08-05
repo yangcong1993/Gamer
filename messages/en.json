@@ -1,0 +1,64 @@
+{
+  "Navigation": {
+    "home": "HOME",
+    "blog": "BLOG",
+    "projects": "PROJECTS"
+  },
+  "OnlineCounter": {
+    "text": "There are {count} players currently playing here~"
+  },
+  "Realtime": {
+    "specialStatus": "Ripple is fixing blog code for a user...",
+    "statusPrefix": "Ripple is currently ",
+    "statusSuffix": "up to something mysterious...",
+    "timeAgo": {
+      "now": "just now",
+      "minutes": "{minutes} minutes ago"
+    },
+    "localTime": "Local Time GMT+8 {time}"
+  },
+  "HomePage": {
+    "ContactTooltips": {
+      "rss": "RSS (Coming Soon)",
+      "mail": "me@hiripple.com",
+      "game": "Nintendo: SW-6702-3803-7997...",
+      "twitter": "X (Twitter)",
+      "github": "Github"
+    },
+    "Intro": {
+      "p1": "\"Ah, sorry... I guess I got a little... lost in the game...\"",
+      "p2": "\"My name is Rippp. I'm the <del>Ultimate</del> Gamer. My hobby is gaming. I'm <del>good at</del> all genres. Nice to meet you~\"",
+      "p3": "That being said... Rippp is actually fascinated by all interesting things. A fan of both Nintendo and Sony, watches Kubrick and admires Miyazaki, is lazy yet a tinkerer, wants to learn all sorts of skills, and aims to travel to every continent on Earth.",
+      "p4": "Currently a graduate student at Hunan University (toiling away), but I've transitioned from hardware to software. This site is my first personal blog developed with Next.js + Supabase. Please give it a star, or feel free to vent your frustrations to the email below :)",
+      "p5": "Whoever comes is a guest. I hope you can find some peace and joy here."
+    }
+  },
+  "FlashIdeas": {
+    "title": "Sparks",
+    "wip": "Under Construction...",
+    "quote_title": "Today's Quote",
+    "image_title": "A Glimpse",
+    "fetch_error": "Failed to fetch data."
+  },
+  "FriendsPage": {
+    "title": "Cooperation",
+    "description": "It’s dangerous to go alone! Take this.",
+    "meta_title": "Friends",
+    "meta_description": "Some of Ripp's Cooperations.",
+    "myInfo_title": "My Info",
+    "myInfo": {
+      "site_name": "hiRipple",
+      "address": "https://hiripple.com",
+      "favicon": "https://772123.xyz/Ripplelog-icon.png",
+      "description": "Ultimate Gamer",
+      "rss": "https://hiripple.com/feed"
+    },
+    "requirements_title": "Information",
+    "requirements_items": [
+      "The Rank on each card solely represents the level of interaction with this site, calculated by an automated program. It is not related to the quality of the friend's site or any personal preference.",
+      "Anyone is welcome to apply via email. However, as this is a community, please start with some basic interaction.",
+      "Additionally, there are three basic requirements: Must use HTTPS, be online for more than six months, and posts must be original content (not reposted or AI-generated).",
+      "To be reborn, for freedom from the shackles of the mind."
+    ]
+  }
+}

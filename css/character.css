@@ -1,0 +1,195 @@
+.character-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: 1000
+}
+
+.character {
+    position: absolute;
+    width: 48px;
+    height: 64px;
+    background-image: var(--character-sprite-url);
+    background-repeat: no-repeat;
+    transform-style: preserve-3d;
+    will-change: transform,background-position;
+    image-rendering: pixelated;
+    transition: background-position .1s steps(1);
+    z-index: 1001;
+    pointer-events: auto;
+    transform: translate3d(0,0,0);
+    cursor: url(/static/cursor/click.cur),pointer
+}
+
+.character::after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 10px;
+    background: rgba(0,0,0,.2);
+    border-radius: 50%;
+    filter: blur(2px);
+    z-index: 6
+}
+
+.footprints-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5
+}
+
+.action-bubble,.footprint,.footprints-container {
+    position: absolute;
+    pointer-events: none
+}
+
+.footprint {
+    width: 6px;
+    height: 12px;
+    background-color: var(--footprint-color);
+    border-radius: 2px;
+    transition: opacity .1s ease-out
+}
+
+.action-bubble {
+    width: 32px;
+    height: 32px;
+    z-index: 101;
+    will-change: transform,opacity;
+    transition: opacity .2s ease-in-out;
+    opacity: 0
+}
+
+.action-bubble.visible {
+    opacity: 1
+}
+
+.action-bubble img {
+    width: 100%;
+    height: auto
+}
+
+.dialogue-box {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 800px;
+    min-height: 140px;
+    background-color: rgba(15,15,30,.9);
+    border: 3px solid #8a2be2;
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(138,43,226,.6);
+    z-index: 1000;
+    color: #fff;
+    pointer-events: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: url(/static/cursor/click.cur),pointer
+}
+
+.dialogue-text {
+    flex-grow: 1;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-right: 25px
+}
+
+.dialogue-face {
+    flex-shrink: 0;
+    width: 96px;
+    height: 96px;
+    border-radius: 8px;
+    overflow: hidden
+}
+
+.dialogue-face img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.name-input-container {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255,215,0,.3)
+}
+
+.name-input {
+    width: 100%;
+    padding: 12px 16px;
+    background: rgba(255,255,255,.1);
+    border: 2px solid #8a2be2;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    transition: all .3s ease;
+    backdrop-filter: blur(5px)
+}
+
+.name-input:focus {
+    border-color: #8a2be2;
+    background: rgba(255,255,255,.15);
+    box-shadow: 0 0 10px rgba(255,215,0,.3)
+}
+
+.name-input::placeholder {
+    color: rgba(255,255,255,.6)
+}
+
+.confirm-button,.confirmation-buttons {
+    visibility: visible!important;
+    opacity: 1!important
+}
+
+.confirmation-buttons {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255,215,0,.3);
+    display: flex!important;
+    gap: 15px;
+    justify-content: center;
+    align-items: center
+}
+
+.confirm-button {
+    padding: 12px 20px;
+    border: 2px solid;
+    border-radius: 8px;
+    background: 0 0;
+    color: #fff!important;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all .3s ease;
+    backdrop-filter: blur(5px);
+    text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+    min-width: 120px;
+    text-align: center;
+    display: inline-block!important
+}
+
+.confirm-button.no,.confirm-button.yes {
+    border-color: #8a2be2
+}
+
+.confirm-button.no:hover,.confirm-button.yes:hover {
+    box-shadow: 0 0 15px rgba(0,255,136,.4);
+    transform: translateY(-2px)
+}
+
+.confirm-button.no:hover {
+    box-shadow: 0 0 15px rgba(255,107,107,.4)
+}

@@ -1,0 +1,182 @@
+---
+title: 'MDX 样式测试页面 JP VERSION'
+date: '2025-07-15'
+tags: ['测试']
+draft: false
+summary: '这是一个用于全面测试网站所有 Markdown 和组件样式的页面。它包括标题、列表、代码块、图片、视频、引用、表格等所有常见元素。'
+---
+
+> **温馨提示**：本页面故意囊括了常见的 Markdown / MDX 写法与常用 React 组件，以便一次性检查所有排版、交互与样式表现。
+
+---
+
+# 一级标题 `h1`
+
+## 二级标题 `h2`
+
+### 三级标题 `h3`
+
+#### 四级标题 `h4`
+
+##### 五级标题 `h5`
+
+###### 六级标题 `h6`
+
+普通段落文字，包含 **加粗**、_斜体_、~~删除线~~、以及 `inline code`。
+
+---
+
+## 实况照片 LivePhoto
+
+这是一个手动插入的 `<LivePhoto>` 组件。如果页面能够成功构建并加载，就证明你的 `LivePhoto.tsx` 组件和 `MDXComponents.tsx` 配置都是正确的。
+
+<LivePhoto
+  photoSrc="/static/images/IMG_6560.avif"
+  videoSrc="/static/images/IMG_6560.MOV"
+  alt="任天堂博物馆现场的实况照片"
+/>
+
+---
+
+## 图片 / Image
+
+### 1. Markdown 语法 HDR
+
+![Markdown 图片示例](/static/images/IMG_6704-3.avif 'nintendo')
+
+### 2. Next.js `<Image>` 组件 SDR
+
+<Image
+  src="/static/images/IMG_6704.JPG"
+  alt="Next.js Image SDR照片"
+  width={800}
+  height={450}
+  priority
+/>
+
+---
+
+## 视频 / Video
+
+<video controls width="800" poster="/static/images/IMG_6560.avif">
+  <source src="/static/images/IMG_6560.MOV" type="video/mp4" />
+  您的浏览器不支持 HTML5 Video 标签。
+</video>
+
+---
+
+## 音频 / Audio
+
+<audio controls>
+  <source src="/static/audio/title_decision.mp3" type="audio/mpeg" />
+  您的浏览器不支持 HTML5 Audio 标签。
+</audio>
+
+---
+
+## 引用 / Blockquote
+
+> 世间最美好的事，莫过于代码如诗、页面如画。
+
+---
+
+## 列表 / Lists
+
+### 无序列表
+
+- 第一项
+- 第二项
+  - 第二项子项 1
+  - 第二项子项 2
+
+- 第三项
+
+### 有序列表
+
+1. 步骤一
+2. 步骤二
+   1. 子步骤 2.1
+   2. 子步骤 2.2
+
+3. 步骤三
+
+### 任务列表
+
+- [x] 初始化项目
+- [ ] 完成样式
+- [ ] 编写测试
+
+---
+
+## 表格 / Table
+
+| 编号 | 名称     | 描述                 |
+| ---- | -------- | -------------------- |
+| 1    | Markdown | 轻量级标记语言       |
+| 2    | MDX      | 可插 React 组件的 MD |
+| 3    | Next.js  | React 全栈框架       |
+
+---
+
+## 代码块 / Code Blocks
+
+```tsx title="hello.tsx"
+export default function Hello() {
+  return <h1>Hello, Next.js!</h1>
+}
+```
+
+```bash title="命令行示例"
+yarn dlx create-next-app my-app --typescript
+cd my-app && yarn dev
+```
+
+```javascript
+var num1, num2, sum
+num1 = prompt('Enter first number')
+num2 = prompt('Enter second number')
+sum = parseInt(num1) + parseInt(num2) // "+" means "add"
+alert('Sum = ' + sum) // "+" means combine into a string
+```
+
+Some Python code 🐍
+
+```python
+def fib():
+  a, b = 0, 1
+  while True:            # First iteration:
+    yield a            # yield 0 to start with and then
+    a, b = b, a + b    # a will now be 1, and b will also be 1, (0 + 1)
+
+for index, fibonacci_number in zip(range(10), fib()):
+  print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
+```
+
+---
+
+## 详情 / 折叠内容
+
+<details>
+<summary>点击展开查看隐藏内容</summary>
+
+折叠段落中的文字可以用来放置辅助说明、参考资料或任何不想默认展开的内容。
+
+</details>
+
+---
+
+## 分割线 / Horizontal Rule
+
+---
+
+## 脚注 / Footnotes
+
+这是一段带脚注的文字[^1]，用来测试脚注样式。
+
+[^1]: 这里是脚注内容。
+
+---
+
+## 结语
+
+如果你看到这里，一切排版似乎都能正确渲染。那么，**恭喜！** 你的 Next.js + MDX + Tailwind CSS（或其他 CSS-in-JS 方案）配置完好，可以安心开始创作啦 🎉

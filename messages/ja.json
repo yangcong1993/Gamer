@@ -1,0 +1,64 @@
+{
+  "Navigation": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "projects": "プロジェクト"
+  },
+  "OnlineCounter": {
+    "text": "現在 {count} 人のプレイヤーがここで遊んでいます～"
+  },
+  "Realtime": {
+    "specialStatus": "Rippleはユーザーのためにブログコードを修正しています…",
+    "statusPrefix": "Rippleは現在",
+    "statusSuffix": "謎に包まれています…",
+    "timeAgo": {
+      "now": "たった今",
+      "minutes": "{minutes}分前"
+    },
+    "localTime": "現地時間 GMT+8 {time}"
+  },
+  "HomePage": {
+    "ContactTooltips": {
+      "rss": "RSS (近日公開)",
+      "mail": "me@hiripple.com",
+      "game": "任天堂: SW-6702-3803-7997...",
+      "twitter": "X (ツイッター)",
+      "github": "Github"
+    },
+    "Intro": {
+      "p1": "「あ、ごめんなさい……ちょっと……ゲームに夢中になっちゃって……」",
+      "p2": "「僕の名前はRippp。<del>超高校級</del>のゲーマーです。趣味はゲーム。すべてのジャンルが<del>得意</del>です。よろしくね～」",
+      "p3": "とはいえ……実はRipppは面白いものすべてに夢中で、任天堂ファンでもありソニーファンでもあり、キューブリックも観れば宮崎駿も崇拝し、怠け者でありながらいじり好き。色々なスキルを学びたくて、世界中のすべての大陸を旅することが目標です。",
+      "p4": "現在、湖南大学の大学院生（苦労してレンガを運んでます）ですが、ハードウェアからソフトウェアに転向しました。このサイトはNext.jsとSupabaseで開発した初めての個人ブログです。ぜひStarをお願いします。そうでなければ、下のメールアドレスが不満のはけ口になっても構いません:)",
+      "p5": "来る者は客。ここで静けさと喜びを感じていただければ幸いです。"
+    }
+  },
+  "FlashIdeas": {
+    "title": "閃念",
+    "wip": "工事中...",
+    "quote_title": "今日の一言",
+    "image_title": "ランダムビュー",
+    "fetch_error": "データの取得に失敗しました。"
+  },
+  "FriendsPage": {
+    "title": "Cooperation",
+    "description": "It’s dangerous to go alone! Take this.",
+    "meta_title": "リンク",
+    "meta_description": "Rippのコミュニティ一覧。",
+    "myInfo_title": "サイト情報",
+    "myInfo": {
+      "site_name": "hiRipple",
+      "address": "https://hiripple.com",
+      "favicon": "https://772123.xyz/Ripplelog-icon.png",
+      "description": "超高校級のゲーマー",
+      "rss": "https://hiripple.com/feed"
+    },
+    "requirements_title": "ご案内",
+    "requirements_items": [
+      "コミュニティカードのランクは、当サイトとの交流レベルを自動プログラムで集計したものであり、リンク先のサイトの品質や個人的な好みとは一切関係ありません。",
+      "どなたでもメールでのコミュニティ参加申請を歓迎しますが、「コミュニティ」ですので、まずは基本的な交流からお願いします。",
+      "また、基本的な要件が3つあります：HTTPSを使用していること、半年以上運営されていること、そして記事が転載やAI生成でないことです。",
+      "精神的な束縛から解放され、自由に生まれ変わるために。"
+    ]
+  }
+}
