@@ -4,7 +4,9 @@
 [![React](https://img.shields.io/badge/React-19.0.0-blue?style=flat-square&logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.1.3-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0.5-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0)
+
+  <a href="./README.en-US.md">🇬🇧 English</a> | <a href="./README.ja-JP.md">🇯🇵 日本語</a>
 
 Gamer，一个基于Nextjs开发的「游戏」主题个人网站，融合了现代 Web 技术与属于游戏的独特交互体验。
 
@@ -79,20 +81,20 @@ npm start
 
 ```
 GAMER-Nextjs-blog/
-├── app/                    # Next.js App Router
-│   ├── [locale]/          # 国际化路由
-│   │   └── (main)/        # 主要页面
-│   │       ├── blog/      # 博客页面
+├── app/                  # Next.js App Router
+│   ├── [locale]/         # 国际化路由
+│   │   └── (main)/       # 主要页面
+│   │       ├── blog/     # 博客页面
 │   │       ├── projects/
 │   │       ├── sparks/
 │   │       └── ...
-│   └── api/               # API 路由
-├── components/            # React 组件
-│   ├── CharacterOverlay.tsx    # 角色控制组件
+│   └── api/              # API 路由
+├── components/           # React 组件
+│   ├── CharacterOverlay.tsx   # 角色控制组件
 │   ├── AnimatedConstruction.tsx # 建筑动画
-│   ├── GuessGame.tsx           # 猜游戏组件
+│   ├── GuessGame.tsx          # 猜游戏组件
 │   └── ...
-├── data/                  # 静态数据
+├── data/                 # 静态数据
 │   ├── blog/             # 博客文章 (MDX)
 │   ├── authors/          # 作者信息
 │   └── projectsData.ts   # 项目数据
@@ -118,7 +120,7 @@ GAMER-Nextjs-blog/
 
 ## 📝 博客写作
 
-使用自定义样式，请参考：style-test.mdx
+使用自定义样式，请参考：`style-test.mdx`
 
 使用 MDX 格式编写博客文章：
 
