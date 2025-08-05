@@ -122,7 +122,16 @@ export default function Footer() {
       <motion.div className="theme-footer -mt-2" variants={itemVariants}>
         BLOG MADE WITH&nbsp;
         <Image src="/static/images/love.gif" alt="love" width={14} height={14} unoptimized />
-        &nbsp;GAMER © 2025
+        &nbsp;{' '}
+        <a
+          href="https://github.com/CelestialRipple/Gamer"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-primary-500 dark:hover:text-primary-400 font-bold transition-colors"
+        >
+          GAMER
+        </a>{' '}
+        © 2025
       </motion.div>
     </motion.div>
   )
